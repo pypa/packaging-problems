@@ -8,11 +8,11 @@ To help us help you, please fill out as much of the following as you can. If a q
 
 2. What is your Python version?
 
-<!-- Your Python version, for example Python 3.5.2. You can usually get this by running `python --version` -->
+<!-- Your Python version, for example Python 3.7.2. You can usually get this by running `python --version` -->
 
 3. What version of pip do you have?
 
-<!-- Your pip version, for example pip 10.0. You can usually get this by running `python -m pip --vesion` -->
+<!-- Your pip version, for example pip 19.2. You can usually get this by running `python -m pip --vesion` -->
 
 4. Could you describe your issue in as much detail as possible?
 
