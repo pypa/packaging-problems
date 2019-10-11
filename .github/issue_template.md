@@ -14,6 +14,10 @@ To help us help you, please fill out as much of the following as you can. If a q
 
 <!-- Your pip version, for example pip 19.2. You can usually get this by running `python -m pip --vesion` -->
 
-4. Could you describe your issue in as much detail as possible?
+4. If following an online tutorial or guide, please provide a link to the page or section giving you trouble:
 
-<!-- Please include any guides you followed, commands you ran, and errors that you saw. -->
+<!-- If applicable, paste in the relevant link -->
+
+5. Could you describe your issue in as much detail as possible?
+
+<!-- Please include any offline guides you followed, commands you ran, and errors that you saw. -->
