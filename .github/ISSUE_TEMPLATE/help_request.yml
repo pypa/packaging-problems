@@ -1,0 +1,74 @@
+name: Help request 
+description: Request help for a problem following the packaging tutorial
+title: Trouble with packaging tutorial
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for providing feedback on Python packaging!
+
+      To help us help you, please fill out as much of the following as you can. If a question is not relevant, feel free to skip it.
+
+
+- type: input
+  id: os_version
+  attributes:
+    label: OS version
+    description: |
+      What is your operating system and version?
+
+      For example, this could be Windows 10 or Ubuntu 18.04.
+
+
+- type: input
+  id: py_version
+  attributes:
+    label: Python version
+    description: |
+      What is your Python version?
+
+      You can usually get this by running `python --version`.
+    placeholder: Python 0.0.0
+
+
+- type: input
+  id: pip_version
+  attributes:
+    label: Pip version
+    description: |
+      What version of pip do you have?
+
+      You can usually get this by running `python -m pip --version`.
+    placeholder: pip 0.0.0
+
+
+
+- type: input
+  id: guide
+  attributes:
+    label: Guide link
+    description: |
+      If following an online tutorial or guide, please provide a link to the page or section giving you trouble.
+    value: https://packaging.python.org/tutorials/packaging-projects
+
+
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem description
+    description: |
+      Could you describe your issue in as much detail as possible?
+      
+      Please describe your problem, including all commands that you ran. Include any offline guides you followed, etc.
+  validations:
+    required: true
+
+
+- type: textarea
+  id: traceback
+  attributes:
+    label: Error message
+    description: |
+      If you received an error printout, please paste the _entire_ error message (called a traceback) here.
+    render: pytb
