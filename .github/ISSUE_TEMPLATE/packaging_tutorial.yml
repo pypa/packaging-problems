@@ -19,6 +19,8 @@ body:
       What is your operating system and version?
 
       For example, this could be Windows 10 or Ubuntu 18.04.
+  validations:
+    required: true
 
 
 - type: input
@@ -30,6 +32,8 @@ body:
 
       You can usually get this by running `python --version`.
     placeholder: Python x.x.x
+  validations:
+    required: true
 
 
 - type: input
@@ -41,6 +45,8 @@ body:
 
       You can usually get this by running `python -m pip --version`.
     placeholder: pip x.x.x
+  validations:
+    required: true
 
 
 
