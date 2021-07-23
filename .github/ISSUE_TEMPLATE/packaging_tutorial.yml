@@ -1,6 +1,6 @@
-name: Help request 
-description: Request help for a problem following the packaging tutorial
-title: Trouble with packaging tutorial
+name: Packaging tutorial problem
+description: Request help for a problem following a packaging tutorial
+title: Trouble with a packaging tutorial
 
 body:
 - type: markdown
@@ -29,7 +29,7 @@ body:
       What is your Python version?
 
       You can usually get this by running `python --version`.
-    placeholder: Python 0.0.0
+    placeholder: Python x.x.x
 
 
 - type: input
@@ -40,7 +40,7 @@ body:
       What version of pip do you have?
 
       You can usually get this by running `python -m pip --version`.
-    placeholder: pip 0.0.0
+    placeholder: pip x.x.x
 
 
 
@@ -50,7 +50,6 @@ body:
     label: Guide link
     description: |
       If following an online tutorial or guide, please provide a link to the page or section giving you trouble.
-    value: https://packaging.python.org/tutorials/packaging-projects
 
 
 - type: textarea
