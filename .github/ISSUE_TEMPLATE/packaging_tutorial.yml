@@ -55,7 +55,7 @@ body:
   attributes:
     label: Guide link
     description: |
-      If following an online tutorial or guide, please provide a link to the page or section giving you trouble.
+      If you are following an online tutorial or guide, please provide a link to the page or section giving you trouble.
 
 
 - type: textarea
