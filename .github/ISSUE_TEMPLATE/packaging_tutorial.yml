@@ -8,7 +8,7 @@ body:
     value: |
       Thank you for providing feedback on Python packaging!
 
-      To help us help you, please fill out as much of the following as you can. If a question is not relevant, feel free to skip it.
+      To help us help you, please fill out as much of the following as you can.
 
 
 - type: input
@@ -63,17 +63,17 @@ body:
   attributes:
     label: Problem description
     description: |
-      Could you describe your issue in as much detail as possible?
+      Please describe your problem in as much detail as possible.
       
-      Please describe your problem, including all commands that you ran. Include any offline guides you followed, etc.
+      Include all the commands that you ran, any offline guides you followed, etc.
   validations:
     required: true
 
 
 - type: textarea
-  id: traceback
+  id: error
   attributes:
     label: Error message
     description: |
-      If you received an error printout, please paste the _entire_ error message (called a traceback) here.
-    render: pytb
+      If you received an error message, please copy and paste the _entire_ message here.
+    render: text
