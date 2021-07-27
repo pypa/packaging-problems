@@ -1,0 +1,79 @@
+name: Packaging tutorial problem
+description: Request help for a problem following a packaging tutorial
+title: Trouble with a packaging tutorial
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for providing feedback on Python packaging!
+
+      To help us help you, please fill out as much of the following as you can.
+
+
+- type: input
+  id: os_version
+  attributes:
+    label: OS version
+    description: |
+      What is your operating system and version?
+
+      For example, this could be Windows 10 or Ubuntu 18.04.
+  validations:
+    required: true
+
+
+- type: input
+  id: py_version
+  attributes:
+    label: Python version
+    description: |
+      What is your Python version?
+
+      You can usually get this by running `python --version`.
+    placeholder: Python x.x.x
+  validations:
+    required: true
+
+
+- type: input
+  id: pip_version
+  attributes:
+    label: Pip version
+    description: |
+      What version of pip do you have?
+
+      You can usually get this by running `python -m pip --version`.
+    placeholder: pip x.x.x
+  validations:
+    required: true
+
+
+
+- type: input
+  id: guide
+  attributes:
+    label: Guide link
+    description: |
+      If you are following an online tutorial or guide, please provide a link to the page or section giving you trouble.
+
+
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem description
+    description: |
+      Please describe your problem in as much detail as possible.
+      
+      Include all the commands that you ran, any offline guides you followed, etc.
+  validations:
+    required: true
+
+
+- type: textarea
+  id: error
+  attributes:
+    label: Error message
+    description: |
+      If you received an error message, please copy and paste the _entire_ message here.
+    render: text
