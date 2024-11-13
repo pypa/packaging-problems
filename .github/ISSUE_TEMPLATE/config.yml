@@ -3,3 +3,8 @@ contact_links:
   - name: Community Guidelines
     url: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md
     about: Please make sure to follow the PSF Code of Conduct when participating in this repository.
+  - name: Python Packaging User Guide
+    url: https://packaging.python.org/en/latest/
+    about: |
+      Collection of tutorials and references to help you distribute and install Python packages.
+      For contributions and suggestions please check https://packaging.python.org/en/latest/contribute/.
